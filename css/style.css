@@ -14,13 +14,18 @@
 .my_start-bootstrap{
     background-color: green;
     color: black;
-    height: 200px;
+    height: 350px;
+}
+
+.my_start-bootstrap img{
+    width: 150px;
+    height: auto;
 }
 
 
 
 .my_img-block img{
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
