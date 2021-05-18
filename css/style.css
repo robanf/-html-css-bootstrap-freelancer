@@ -17,6 +17,13 @@
     height: 200px;
 }
 
-.my_img-block{
-    background-color: blue;
+
+
+.my_img-block img{
+    width: 200px;
+    height: auto;
+}
+
+.my_footer-bootstrap{
+    background-color: brown;
 }
