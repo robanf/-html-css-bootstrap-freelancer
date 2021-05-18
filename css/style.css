@@ -8,4 +8,15 @@
 
 
 .my_right-nav{
-    background-color: yellow;}
+    background-color: yellow;
+}
+
+.my_start-bootstrap{
+    background-color: green;
+    color: black;
+    height: 200px;
+}
+
+.my_img-block{
+    background-color: blue;
+}
