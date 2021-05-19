@@ -1,22 +1,51 @@
 .my_nav{
     background-color: #212529;
-    height: 70px;
+    height: 60px;
 }
 
 .my_left-nav{
     background-color: yellow;
 }
 
+.linea{
+    height: 3px;
+    width: 100px;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+.white{
+    color:white;
+}
+
+.nero{
+    background-color: black;
+}
+
+.white i{
+    font-size: large;
+    margin: 0 4px;
+}
 
 .my_right-nav{
     background-color:blueviolet;
 }
 
 .my_start-bootstrap{
-    background-color: green;
+    background-color: #1abc9c;
     color: black;
    
     padding-top: 90px;
+}
+.my_about-bootstrap{
+    background-color: #1abc9c;
+    padding-top: 50px;
+}
+
+.my_prefooter-bootstrap{
+    background-color: #1abc9c;
+    padding-top: 10px;
 }
 
 .my_start-bootstrap img{
@@ -33,4 +62,5 @@
 .my_footer-bootstrap{
     background-color: brown;
     height: 90px;
+    
 }
