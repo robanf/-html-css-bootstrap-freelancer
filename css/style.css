@@ -55,6 +55,11 @@
     height: auto;
 }
 
+.icone i{
+    height: 10px;
+    width: 15px;
+    
+}
 
 .box  img{
     width:100%;
