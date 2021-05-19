@@ -1,5 +1,6 @@
 .my_nav{
-    background-color: red;
+    background-color: #212529;
+    height: 70px;
 }
 
 .my_left-nav{
@@ -8,13 +9,14 @@
 
 
 .my_right-nav{
-    background-color: yellow;
+    background-color:blueviolet;
 }
 
 .my_start-bootstrap{
     background-color: green;
     color: black;
-    height: 350px;
+   
+    padding-top: 90px;
 }
 
 .my_start-bootstrap img{
@@ -23,12 +25,12 @@
 }
 
 
-
-.my_img-block img{
-    width: 250px;
+.box  img{
+    width:100%;
     height: auto;
 }
 
 .my_footer-bootstrap{
     background-color: brown;
+    height: 90px;
 }

@@ -9,102 +9,167 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row my_nav">
-            <div class="col offset-sm-1 my_left-nav">ciao mondo</div>
 
-            <div class="col offset-sm-4 my_right-nav">secondo ciao mondo </div>
+    <nav class="my_nav fixed-top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                          <a class="navbar-brand" href="#">Navbar</a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link active" href="#">Contact</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
+    <section id="jumbotron" class="my_start-bootstrap">
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="bootstrap_freelancer/img/avatar.svg" alt="">
+                    <h2>Portfolio</h2>
+                    <div>ciao sono Roberto</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="container-fluid mb-5">
-        <div class="row">
-            <div class="col-12 text-center p-5 my_start-bootstrap">
-                <img src="bootstrap_freelancer/img/avatar.svg" alt="">
-                <h2>Portfolio</h2>
-                <div>ciao sono Roberto</div>
+    <div class="abilita">
+        <div class="container-lg mb-3">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+                    <div>ciao sono Roberto</div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-5 ">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+                        <img src="bootstrap_freelancer/img/cabin.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+                        <img src="bootstrap_freelancer/img/cake.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+                        <img src="bootstrap_freelancer/img/circus.png" alt="">
+                    </div>
+                </div>
+            
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+
+                        <img src="bootstrap_freelancer/img/game.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+
+                        <img src="bootstrap_freelancer/img/safe.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="box">
+                        <img src="bootstrap_freelancer/img/submarine.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container-lg mb-3">
-        <div class="row mx-auto" style="width:100vh;">
-            <div class="col text-center">
-                <h2>Portfolio</h2>
-                <div>ciao sono Roberto</div>
+    <div class="about my_start-bootstrap"> 
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Portfolio</h2>
+                    <div>ciao sono Roberto</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 offset-md-1 col-md-5"></div>
+                    <div class="col-12 offset-md-1 col-md-5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="messaggio">
+        <div class="container mb-3">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Contattami</h2>
+                    <div>ciao sono Roberto</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-5">
+            <div class="row">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Numero di telefono">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Messaggio"></textarea>
+                    </div>
+                    
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </div>
         </div>
     </div>
 
-    <div class="container-lg text-center mb-5">
-        <div class="row">
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/cabin.png" alt=""></div>
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/cake.png" alt=""></div>
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/circus.png" alt=""></div>
-        </div>
-        <div class="row text-center">
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/game.png" alt=""></div>
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/safe.png" alt=""></div>
-            <div class="col my-2 my_img-block"><img src="bootstrap_freelancer/img/submarine.png" alt=""></div>
-        </div>
-    </div>
-
-    <div class="container-fluid mb-5">
-        <div class="row">
-            <div class="col-12 text-center  p-5 my_start-bootstrap">
-                <h2>Portfolio</h2>
-                <div>ciao sono Roberto</div>
+    <div class="my_start-bootstrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    footer bootstrap
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="container-lg mb-3">
-        <div class="row mx-auto" style="width:100vh;">
-            <div class="col text-center">
-                <h2>Contattami</h2>
-                <div>ciao sono Roberto</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-lg mb-5">
-        <div class="row mx-auto" style="width:100vh;">
-            <form>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label"></label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Numero di telefono">
-                  </div>
-                  <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label"></label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Messaggio"></textarea>
-                  </div>
-                
-                
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-        </div>
-    </div>
-
-    <div class="container-fluid ">
-        <div class="row">
-            <div class="col-12 text-center p-5 my_start-bootstrap">
-                footer bootstrap
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 text-center p-4 my_footer-bootstrap">
-                footer bootstrap
+    <div class="my_footer-bootstrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    footer bootstrap
+                </div>
             </div>
         </div>
     </div>
